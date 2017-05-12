@@ -1,0 +1,30 @@
+{
+  "name": "jasmine-ts-async",
+  "version": "1.0.0",
+  "description": "Simple asynchronous wrappers for jasmine functions written in typescript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdvorscak/jasmine-ts-async.git"
+  },
+  "keywords": [
+    "jasmine",
+    "async",
+    "typescript"
+  ],
+  "author": "Mike Dvorscak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mdvorscak/jasmine-ts-async/issues"
+  },
+  "homepage": "https://github.com/mdvorscak/jasmine-ts-async#readme",
+  "devDependencies": {
+    "@types/jasmine": "^2.5.47",
+    "jasmine": "^2.6.0",
+    "typescript": "^2.3.2"
+  }
+}
